@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhap diem sinh vien</title>
+</head>
+<body>
+<script>
+    let inputMaths;
+    let inputPhysical;
+    let inputChemistry;
+    inputMaths = prompt("Enter the maths");
+    inputPhysical = prompt("Enter the physical");
+    inputChemistry = prompt("Enter the chemistry");
+    let maths = parseInt(inputMaths);
+    let physical = parseInt(inputPhysical);
+    let chemistry = parseInt(inputChemistry);
+    let area = maths + physical + chemistry;
+    document.write("total: " + area);
+    console.log(area)
+    let average = (maths + physical + chemistry) / 3;
+    document.write("average: " + average);
+</script>
+</body>
+</html>

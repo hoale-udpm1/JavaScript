@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>many</title>
+    <link rel="stylesheet" type="text/css" href="many.css">
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>Form Currency</th>
+            <th colspan="2">To Currrency</th>
+        </tr>
+        <tr>
+            <td><input type="text" name="number"></td>
+            <td><select>
+                <option>VietNam</option>
+                <option>My</option>
+                <option>NhatBan</option>
+            </select></td>
+            <td><select>
+                <option>USD</option>
+                <option>VND</option>
+            </select></td>
+            <td><input type="submit" value="Convert" name="Convert"></td>
+        </tr>
+    </table>
+</form>
+<script>
+    //Hàm đọc giá trị và hiện thị thông tin
+    function textthaydoi() {
+        var value = $( this ).val();
+        $( "p#giatriinputtext" ).text( value );
+    }
+
+    //Bắt sự kiện keyup của textbox
+    $( "#inputtext" ).keyup(textthaydoi);
+
+    //Cho #inputext phát sinh một sự kiện keyup ban đầu
+    $( "#inputtext" ).keyup();
+    //Hàm đọc và hiện thị thông tin
+    function displayVals() {
+        var singleValues =   $( "#single" ).val();
+        var multipleValues = $( "#multiple" ).val() || [];
+
+        $( "p#info1" ).html( "<b>Single:</b> " + singleValues +
+            " <b>Multiple:</b> " + multipleValues.join( ", " ) );
+    }
+
+    //Bắt sự kiện thi thay đổi giá trị
+    $( "#single, #multiple" ).change( displayVals );
+
+    displayVals();
+    //Có thể đưa alert và và f12 run thử xem Button đã chạy hàm chưa trước khi viết tiếp.
+    let inputAmount = parseInt(document.getElementById('amount').value);
+    let fromCurrency= parseInt(document.getElementById('fromCurrency').value);
+    let toCurrency = parseInt(document.getElementById('toCurrency').value);
+    let result=(inputAmount*fromCurrency/toCurrency);
+    document.getElementById('showResult').innerText="Kết quả chuyển đổi bằng " + result.toFixed(2);
+</script>
+</body>
+</html>
