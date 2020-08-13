@@ -5,7 +5,7 @@
 //console.log("total");
 //alert(total)
 
-function do_something(){
+/*function do_something(){
   var selectedValue = document.getElementById("myselect").value;
   alert(selectedValue);
 }
@@ -20,4 +20,8 @@ function do_something(){
 function mouseout() {
   document.getElementById("demo").style.color = "black";
 }
-
+*/
+var value = prompt("Enter your namwe");
+if (value!= " "){
+  alert("xin chao: " + value)
+}
