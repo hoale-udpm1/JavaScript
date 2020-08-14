@@ -20,13 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60602f50-aeb3-4b40-ac24-19c986f29d2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice switch-case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoYouLoveMe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Football.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Nobita.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-fast-cheap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/good-fast-cheap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex01.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -53,6 +58,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,7 +79,8 @@
       <workItem from="1597200712822" duration="6877000" />
       <workItem from="1597213427666" duration="11105000" />
       <workItem from="1597281112716" duration="353000" />
-      <workItem from="1597281480920" duration="5857000" />
+      <workItem from="1597281480920" duration="18567000" />
+      <workItem from="1597366897442" duration="14951000" />
     </task>
     <servers />
   </component>
@@ -93,6 +100,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1597380889414">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1597380889414" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597377405268">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597377405268" />
     <state x="404" y="105" width="540" height="524" key="StructurePopup" timestamp="1597219394340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gooo-fast-cheap</title>
+    <link rel="stylesheet" href="good-fast-cheap.css" type="text/css">
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            <label for="good" class="switch">
+            <input type="checkbox" value="1" id="good" onclick="troll ('good')">
+                <span class="slider round"></span>
+            </label>
+        </td>
+        <td>Good</td>
+    </tr>
+    <tr>
+        <td>
+            <label for="cheap" class="switch">
+            <input type="checkbox" value="2" id="cheap" onclick="troll ('cheap')">
+            <span class="slider round"></span></label>
+        </td>
+        <td>Cheap</td>
+    </tr>
+    <tr>
+        <td>
+            <label for="fast" class="switch">
+            <input type="checkbox" value="3" id="fast" onclick="troll ('fast')">
+            <span class="slider round"></span></label>
+        </td>
+        <td>Fast</td>
+    </tr>
+</table>
+</body>
+<script>
+    function troll (btn){
+        let good= document.getElementById('good');
+        let fast= document.getElementById('fast');
+        let cheap= document.getElementById('cheap');
+        switch (btn){
+            case "good":
+                if(good.checked && fast.checked === true){
+                    cheap.checked = false;
+                }
+                break;
+            case "cheap":
+                if(cheap.checked && good.checked === true){
+                    fast.checked = false;
+                }
+                break;
+            case "fast":
+                if(fast.checked && cheap.checked === true){
+                    good.checked = false;
+                }
+                break;
+        }
+    }
+</script>
+</html>
