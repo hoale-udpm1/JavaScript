@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 2</title>
+</head>
+<body>
+<h1>Số tuổi</h1>
+<input type="number" id="tuoi" placeholder="vui lòng nhập tuổi"><br>
+<input type="button" value="nhập" onclick="button()"><Br>
+<p id="xuat"></p>
+<script>
+    let age = Number(document.getElementById('tuoi'));
+    function button() {
+        if (age <= 15) {
+            document.getElementById('xuat').innerText = 'học sinh không đủ điều kiện vào học lớp 10';
+        } else {
+            document.getElementById('xuat').innerText = 'hoc sinh đủ điều kiên vào học lớp 10';
+        }
+    }
+</script>
+</body>
+</html>

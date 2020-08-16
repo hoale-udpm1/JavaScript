@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 5</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>Điểm đầu kỳ </td>
+        <td><input type="number" id="test1"></td>
+    </tr>
+    <tr>
+        <td>Điểm thi giữa kỳ</td>
+        <td><input type="number" id="test2"></td>
+    </tr>
+    <tr>
+        <td>Điểm thi cuối kì</td>
+        <td><input type="number" id="test3"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="kết quả" onclick="submit()"></td>
+    </tr>
+</table>
+<script>
+    function submit() {
+        let diemKi1 = Number(document.getElementById('test1').value);
+        let diemGiuaKi = Number(document.getElementById('test2').value);
+        let diemKi2 = Number(document.getElementById('test3').value);
+        let avg = (diemKi1 + diemGiuaKi + diemKi2) / 3;
+        if (avg < 6.5) {
+            if (avg < 5) {
+                alert('Bạn đạt loại Yếu!');
+            } else {
+                alert('Bạn đạt loại Trung Bình!');
+            }
+        } else if (avg < 8) {
+            alert('Bạn đạt loại Khá!');
+        } else {
+            alert('Bạn đạt loại Giỏi!');
+        }
+    }
+
+</script>
+</body>
+</html>

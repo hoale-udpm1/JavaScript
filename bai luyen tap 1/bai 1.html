@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiem tra so</title>
+</head>
+<body>
+<h1>Kiểm tra số</h1>
+<input type="text" id="numa" placeholder="vui lòng nhập số a" ><br>
+<input type="text" id="numb" placeholder="vui lòng nhập số b" ><br>
+<input type="button" onclick="submit()" value="kiểm tra">
+<script>
+    function submit() {
+        let a = document.getElementById('numa').value;
+        let b = document.getElementById('numb').value;
+        if (a%b === 0) {
+            document.write('a chia hết cho b');
+        } else {
+            document.write(' a không chia hết cho b');
+        }
+    }
+</script>
+</body>
+</html>

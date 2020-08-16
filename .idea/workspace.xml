@@ -20,16 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60602f50-aeb3-4b40-ac24-19c986f29d2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DoYouLoveMe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Football.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Nobita.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/good-fast-cheap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/good-fast-cheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 1/bai 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 1/bai 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 1/bai 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 1/bai 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 1/bai 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 1/bai 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 2/bai 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 2/bai 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 2/bai 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 2/bai 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 2/bai 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 2/bai 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 2/bai 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 2/bai 8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai luyen tap 2/bai 9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Football.html" beforeDir="false" afterPath="$PROJECT_DIR$/football/Football.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bong.png" beforeDir="false" afterPath="$PROJECT_DIR$/football/bong.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-fast-cheap.css" beforeDir="false" afterPath="$PROJECT_DIR$/good fast cheap/good-fast-cheap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/good-fast-cheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/good fast cheap/good-fast-cheap.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -80,7 +90,10 @@
       <workItem from="1597213427666" duration="11105000" />
       <workItem from="1597281112716" duration="353000" />
       <workItem from="1597281480920" duration="18567000" />
-      <workItem from="1597366897442" duration="14951000" />
+      <workItem from="1597366897442" duration="15243000" />
+      <workItem from="1597400489877" duration="193000" />
+      <workItem from="1597459273845" duration="1971000" />
+      <workItem from="1597590599552" duration="2132000" />
     </task>
     <servers />
   </component>
